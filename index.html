@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reaction time</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+   
+        <div id="mainbox">
+          <h1> This is the Measurement of your Reaction Time</h1>
+      <h2>Rules:</h2>
+      <ul style="list-style-type:disc;">
+          <li>Enter your Name then click on the start button</li>
+          <li>After clicking the start button when the red box become green you have to <br>click 1 time anywhere on the green box as early as possible. The time you take to react is your Reaction Time.</li>
+          <li>You have to play 3 times.</li>
+        </ul>
+      </div>
+          <div id="game-container">
+              <div id="red-box"></div>
+              <div id="green-box"></div>
+          </div>
+      
+          <div>
+              <label id="name" for="student-name">Enter Your Name:</label>
+              <input type="text" id="student-name">
+              <button onclick="startGame()">Start Game</button>
+              <p id="reaction-time"></p>
+          </div>
+    <script src="script.js"></script>
+</body>
+</html>
